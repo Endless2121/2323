@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: roblox-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    region: frankfurt
